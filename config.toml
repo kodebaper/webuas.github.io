@@ -1,0 +1,4 @@
+baseURL = "http://webuas/"
+languageCode = "en-us"
+title = "project untuk UAS"
+theme = "nusamandiri"

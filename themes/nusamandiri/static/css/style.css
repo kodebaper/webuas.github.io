@@ -1,0 +1,241 @@
+html, body, .container-fluid {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item a {
+    color: #2c2c2c !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #5f5c5c !important;
+    transition: 0.2s;
+}
+
+.bg-header-bg{
+    background-image: url("../img/waterglass.jpg");
+    background-size: cover;
+    z-index:10; /*a number that's more than the modal box*/
+    left:-50px;
+    top:10px;
+  }
+
+.bg-header {
+    /* background-image: linear-gradient(to right bottom, rgba(248, 178, 27, 0.1) , rgba(255, 153, 0, 0.2)); */
+    background: rgba(201, 209, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.07 );
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.header {
+    height: 95vh;
+}
+
+.header-kiri {
+    height: 100%;
+}
+
+.header-kiri h1 {
+    line-height: 135%;
+    font-size: 46px;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.header-kiri p {
+    line-height: 180%;
+    padding-right: 30px;
+}
+
+.header-kanan img {
+    filter: drop-shadow(5px 1px 15px rgba(0, 0, 0, 0.2));
+}
+
+.button-utama {
+    background-color: rgb(3, 115, 190);
+    border: none;
+    padding: 13px 35px;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.button-utama:hover {
+    background-color: rgb(33, 141, 212);
+    transition: 0.3s;
+}
+
+.counter .col-md-9 {
+    height: 120px;
+    margin-top: -60px;
+    background-color: #FFFFFF;
+    z-index: 10;
+    border-radius: 15px;
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+#kenapa-harus {
+    background-image: url("../img/line.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#kenapa-harus .col-md-2 {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    transition: 0.3s;
+    border: 2px solid rgba( 0, 0, 0, 0.03 );
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.05);
+}
+
+#kenapa-harus .col-md-2:hover {
+    box-shadow: 1px 2px 35px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transform: scale(107%);
+}
+
+#kenapa-harus h6 {
+    font-size: 17px;
+}
+
+#kenapa-harus p {
+    font-size: 14px;
+    line-height: 170%;
+}
+
+#destinasi-terbaik .carousel img {
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 20px 20px 0px rgba(3, 104, 187, 0.3);
+}
+
+#destinasi-terbaik h2:nth-child(2) {
+    color: red;
+}
+
+#destinasi-terbaik h2:nth-child(2) span {
+    color: #212529;
+    font-size: 20px;
+}
+
+#destinasi-terbaik .carousel p {
+    line-height: 180%;
+}
+
+.carousel-item {
+    padding-bottom: 50px;
+}
+
+.carousel-control-prev {
+    margin-left: -120px;
+}
+
+.carousel-control-next{
+    margin-right: -120px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/previous.png");
+}
+
+.carousel-control-next-icon{
+    background-image: url("../img/next.png");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+#pesan .container-fluid {
+    height: 500px;
+    background-image: url("../img/waterglass.jpg");
+    background-size: cover;
+}
+
+#pesan .container-fluid .row {
+    padding: 30px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.hide {
+    display: none;
+    visibility: hidden;
+}
+
+#footer {
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color: rgba(33, 37, 41, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+#footer ul {
+    padding-left: 0px;
+    list-style-type:none;
+}
+
+#footer ul li {
+    padding-bottom: 5px;
+}
+
+#footer ul a {
+    color: #212529;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#footer ul a:hover {
+    color: #3d3d3d;
+    text-decoration: underline;
+}
+.copyright {
+    background-color: rgb(3, 115, 190);
+    color: #FFFFFF;
+    height: 50px;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.copyright p {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-kanan {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  #contact .card:hover i,#contact .card:hover h4{
+	color: #87d37c;
+}
