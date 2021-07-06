@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://webuas/hotel/</loc>
+    <lastmod>2021-07-06T10:46:02+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://webuas/contact/</loc>
+    <lastmod>2021-07-06T09:01:45+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://webuas/post/artike-satu/</loc>
+    <lastmod>2021-07-06T08:56:44+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://webuas/post/</loc>
+    <lastmod>2021-07-06T08:56:44+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://webuas/</loc>
+    <lastmod>2021-07-06T08:56:44+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://webuas/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://webuas/tags/</loc>
+  </url>
+  
+</urlset>
