@@ -1,4 +1,4 @@
-baseURL = "http://webuas/"
+baseURL = "http://webuas.github.io/"
 languageCode = "en-us"
 title = "project untuk UAS"
 theme = "nusamandiri"
